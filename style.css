@@ -1,0 +1,154 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#box1,
+#box4,
+#box5 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+#box4 {
+    width: 50px;
+    text-align: center;
+}
+#box1, #box5 {
+    filter: invert(100%);
+}
+.navbar {
+    display: block;
+    width: 45%;
+    margin: -57px auto;
+}
+#box3 {
+    position: absolute;
+    top: 17px;
+    right: -15px;
+    /* border: 2px solid white; */
+    margin: 4px 22px;
+    padding: 7px 15px;
+}
+#login,
+#signup {
+    /* Increase the spacing between the buttons */
+    /* Increase the font size of the buttons */
+    padding: 6px 10px;
+    margin: 3px 6px;
+}
+#login:hover,
+#signup:hover {
+    color: grey;
+}
+#login {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px -10px;
+    font-size: 20px;
+text-transform: uppercase;
+font-weight: 500;
+font-family: "Montserrat", sans-serif;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: grey;
+    text-decoration: underline;
+}
+.quote {
+    margin: 99px 91px;
+    padding: 38px 13px;
+    font-size: 30px;
+    line-height: 30px;
+}
+#motivated {
+    padding: 0px 0px;
+}
+.overall {
+
+  /* border: 2px solid white; */
+  float: right;
+position: relative;
+bottom: 384px;
+right: 74px;
+background-color: #8b8b8b63;
+border-radius: 20px;
+box-sizing: border-box;
+height: 448px;
+padding: 20px;
+width: 278px;
+  
+}
+.overall input {
+/* background-color: #ffffff58; */
+border-radius: 12px;
+border: 0;
+box-sizing: border-box;
+color: #000000;
+font-size: 18px;
+height: 100%;
+outline: 0;
+padding: 4px 20px 0;
+width: 100%;
+}
+#cardtype option {
+background-color: #ffffff; /* Updated color value */
+}
+#cardtype option:checked,
+#cardtype option:first-of-type {
+color: #ffffff;
+}
+#bar
+{
+    color: yellow;
+}
+.title {
+color: #eee;
+font-family: sans-serif;
+font-size: 36px;
+font-weight: 600;
+margin-top: 30px;
+}
+
+.subtitle {
+color: #eee;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 600;
+margin-top: 10px;
+}
+.formbody {
+height: 50px;
+position: relative;
+width: 100%;
+line-height: 25px;
+}
+.submit {
+background-color: rgb(225, 255, 0);
+
+border-radius: 12px;
+border: 0;
+box-sizing: border-box;
+color: #000000;
+cursor: pointer;
+font-size: 18px;
+height: 30px;
+margin: -5px 85px;
+
+text-align: center;
+
+}
+.city{
+margin-top: 7px;
+}
